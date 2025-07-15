@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My name</title>
+  </head>
+  <body>
+    <h2 id="title-page">Example Page</h2>
+    <p>Student Data</p>
+    <br>
+    <form id = 'form'>
+      <label for="firstName">First Name:</label><br>
+      <input type="text" id="firstName" name="firstName"><br>
+      <br>
+      <label for="lastname"> Lastname:</label><br>
+      <input type="text" id="lastname" name="lastname"><br>
+      <br>
+      <label for="Age"> Age:</label><br>
+      <input type="number" min="0" id= "age" name="age"><br>
+      <br>
+      <input type="button" value="Submit" onclick="printFormValues(event)">
+      <input type="button" value="Clear" onclick="resetFormvalues(event)">
+    </form>
+    <script src = "home.js"></script>
+  </body>
+</html>
