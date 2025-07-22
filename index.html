@@ -1,10 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
+    </head>
+    <style>
+        body{
+             padding: 50px;
+        }
+       
+        p{
+            text-align: center;
+            font-size: 30px;
+            width: 30%; 
+            margin: auto; 
+            margin-bottom: 40px;
+        }
+        form{
+            border: solid;
+            border-radius: 10px; 
+            width: 30%; 
+            margin: auto;
+            padding: 25px;
+        }
+
+        button{
+          color: #CED1F8;
+        }
+    
+    </style>
+    <body>
     <title>My name</title>
   </head>
   <body>
-    <h2 id="title-page">Example Page</h2>
+    <h2 id="title-page"></h2>
     <p>Student Data</p>
     <br>
     <form id = 'form'>
@@ -20,6 +47,7 @@
       <input type="button" value="Submit" onclick="printFormValues(event)">
       <input type="button" value="Clear" onclick="resetFormvalues(event)">
     </form>
-    <script src = "home.js"></script>
+    <script src = "index.js"></script>
+
   </body>
 </html>
